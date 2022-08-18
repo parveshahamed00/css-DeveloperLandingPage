@@ -6,7 +6,6 @@ Developer Landing Page [iNeuron.](https://ineuron.ai/)
 ## Screenshot
 
 ![App Screenshot](gif.gif)
->note: Responsive design under construction 🛠️
 
 [Live Demo](https://parveshahamed-developer-landing-page.netlify.app/)
 
@@ -16,7 +15,7 @@ By building this assignment I've learned css flexbox, alignment and more. I took
 
 ## 🚀 About Me
 
-19 ♂, Student doing BSc Information Technology, Fullstack Developer🧑‍💻.
+19, Student doing BSc Information Technology, Fullstack Developer🧑‍💻.
 
 ## 💼 Technical Skills
 

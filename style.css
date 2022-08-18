@@ -7,7 +7,9 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
-
+nav h1{
+  display: none;
+}
 
 header{
   padding-top: 2%;
@@ -69,6 +71,8 @@ top: 13%;
   margin-top: 3%;
 }
 .cards{
+  flex-wrap: wrap;
+
   display: flex;
   justify-content: space-between;
 }
@@ -93,9 +97,13 @@ top: 13%;
 /* part-2 */
 .blog-cards{
   display: flex;
+    flex-wrap: wrap;
+padding: 0 2%;
   justify-content: space-between;
 }
 .blog-card{
+      flex-wrap: wrap;
+
   border-radius: 10px;
   background: #ffffff;
   box-shadow:  29px 29px 57px #d9d9d9,
@@ -141,10 +149,13 @@ top: 13%;
   background-color: #E9EDFF;
   justify-content: space-between;
   display: flex;
+      flex-wrap: wrap;
+
 }
 img[alt="faqIamge"]{
   width: 55%;
   height: 100%;
+  padding-left: 5%;
 }
 .faq-content h2{
   font-size: 20px;
@@ -169,6 +180,7 @@ padding-left: 3%;
 .download-section{
   padding: 3% 4%;
 display: flex;
+flex-wrap: wrap;
 align-items: center;
 justify-content: space-between;
 }
@@ -210,6 +222,7 @@ font-size: 12px;
   justify-content: space-between;
   background-color: blue;
   color: #ffffff;
+  flex-wrap: wrap;
 }
 .footer-left{
   width: 40%;
@@ -220,6 +233,9 @@ font-size: 12px;
 .footer-left .list{
   margin-top: 1%;
   display: flex;
+    flex-wrap: wrap;
+
+
 }
 .footer-left .list .list-items{
   list-style: none;
@@ -230,6 +246,8 @@ font-size: 12px;
 .footer-right .logos-list{
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
+  
   font-size: 10px; 
 }
 .footer-right .logos-list .middle{
@@ -240,4 +258,30 @@ font-size: 12px;
 }
 .footer-right .footer-right .middle{
   margin: 0 13%;
+}
+/* media-query */
+@media only screen and (max-width: 668px) {
+.logo{
+  width: 20%;
+}
+nav .nav-items{
+  display: none;
+}
+nav h1{
+  display: unset;
+  padding-right: 3%;
+  color: #E9EDFF;
+}
+.header-image{
+  position: unset;
+  margin-left: 3%;
+  width: 35%;
+}
+.download-email button{
+  margin-top: 3%;
+  position: unset;
+}
+.footer-left img[alt="footerImage"]{
+  width: 40%;
+}
 }
